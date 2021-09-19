@@ -1,0 +1,498 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background: rgb(28, 28, 29);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 40px;
+ 
+
+}
+
+.headertext1 {
+  display: inline-block;
+  color: rgb(255, 187, 0);
+  font-size: 20px;
+  font-family: 'Kaisei HarunoUmi', serif;
+  
+  margin-left: 10px;
+  margin-top: 5px;
+
+}
+
+
+.bg {
+  background-color: rgb(45, 45, 48);
+  padding-top: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: auto;
+}
+.fa {
+  
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+
+}
+.icon{
+  
+  display:inline-block;
+  margin-top: 7px;
+  
+
+}
+.fa:hover {
+  color: white;
+  opacity: 0.7;
+}
+.fa-github {
+  
+  background: black;
+  color: white;
+  
+  
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ea4c89;
+  color: white;
+
+}
+.about{
+  display: grid;
+  justify-content: space-around;
+  column-gap: 20px;
+  padding: 80px;
+  grid-template-columns: auto auto;
+}
+.about-img{
+  display: inline-block;
+  width: auto;
+  height: 300px;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 4px 6px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+}
+.about-text{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Kaisei HarunoUmi', serif;
+  
+  
+}
+.about-text1{
+  font-family: 'Cookie', cursive;
+  color: rgb(255, 187, 0);
+  text-align: center;
+  display: inline-block;
+  text-align: center;
+  font-size: 50px;
+  
+  padding: 20px;
+}
+
+.main1{
+  margin-left: 30px;
+}
+
+.div1 {
+  display: block;
+  background-color: rgb(45, 45, 48);
+  padding: 20px;
+  width: 40%;
+  
+  margin: 15px auto;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 2px 4px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+}
+
+.div11 {
+  width:auto;
+  max-width: 550px;
+  padding: 20px;
+}
+
+.degree {
+  
+  font-size: 14px;
+  font-family: 'Kaisei HarunoUmi', serif;
+  color: white;
+  border:1px solid rgb(28, 28, 29);
+  background-color: rgb(45, 45, 48);
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 4px rgb(28, 28, 29);
+}
+
+.link {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  padding: 5px;
+  color: rgb(255, 187, 0);
+  
+
+}
+
+.link:hover {
+  background-color: rgb(255, 187, 0);
+  border-radius: 10px;
+  box-shadow: 2px 4px rgb(28, 28, 29);
+  color:rgb(28, 28, 29);
+}
+
+
+.title {
+  font-family: 'Kaisei HarunoUmi', serif;
+
+  border-top: 3px dotted #ffffff;
+  border-bottom: 3px dotted #ffffff;
+  padding: 10px;
+  color:rgb(255, 187, 0);
+  background-color: rgb(28, 28, 29);
+}
+
+.skillResponsive {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  margin: 5px 0px 5px 0px;
+}
+
+.skills {
+  text-align: right;
+  padding: 5px;
+  color: white;
+  
+}
+.skill-text{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.html {
+
+  width: 90%;
+  background-color: #4CAF50;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.python {
+  width: 65%;
+  background-color: #f44336;
+}
+
+.qa {
+  width: 20%;
+  background-color: #808080;
+}
+
+.c {
+  width: 60%;
+  background-color: #cbdf1c;
+}
+.achieve-slider{
+  padding: 5px;
+  height: auto;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+
+.slider-ind .carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.slider-ind .carousel-control-next-icon{ 
+  filter: invert(1);
+}
+.carousel-indicators button {
+  background-color: #000000!important;
+}
+
+.carousel-item img {
+  border-radius: 5px;
+  box-shadow: 4px 6px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+}
+
+
+
+
+
+
+
+
+
+
+
+.youtube{
+  background-color: rgb(45, 45, 48);
+  padding: 5px;
+  height: auto;
+  width: 280px;
+  border-radius: 5px;  
+  box-shadow: 4px 6px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+}
+
+
+.grid-box{
+  display: grid;
+  grid-template-columns : auto auto ;
+  column-gap: 20px;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+
+.buttonDownload {
+	display: inline-block;
+	position: relative;
+	padding: 10px 25px;
+	background-color:green;
+	color: white;
+  
+	font-family: sans-serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+	text-indent: 15px;
+  border-radius: 10px;
+  box-shadow: 6px 0px 4px 0px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+  
+}
+
+.buttonDownload:hover {
+	background-color: rgb(11, 95, 3);
+	color: white;
+  box-shadow: 4px 6px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 1.2px;
+	margin-top: -7px;
+  
+  
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+  
+	
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: white;
+}
+
+.buttonDownload:hover:after {
+	border-top-color:white;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
+
+.button{
+  
+  padding: 10px;
+  display: block;
+  margin-top: 15px;
+}
+
+.social-ico {
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  font-size: 25px!important;
+
+  margin: 0px 5px;
+  margin-top: 5.5px;
+}
+
+.abt-des {
+  text-align: center;
+  padding: 14px 0;
+}
+
+.carousel-inner{
+  box-shadow: 4px 6px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+  border-radius: 5px;
+
+}
+
+.contact-l{
+  max-height: 170px;
+  background-color: rgb(255, 187, 0);
+  padding: 20px;
+  border-radius: 20px ;
+  margin-top: 100px;
+}
+.contact-r{
+  margin-bottom: 20px;   
+}
+
+.form-grid{
+  
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.textcontroler{
+  margin-top: 0px;
+}
+.svg-icon{
+  color: rgb(28, 28, 29);
+}
+.contact-address{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(45, 45, 48);
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+.contact-lable{
+  font-family: 'Raleway', sans-serif;
+  color: rgb(255, 187, 0);
+  padding: 10px;
+  
+
+}
+
+.contact-input{
+  display: block;
+  border-radius: 5px;
+  width: 300px; 
+  padding: 5px;
+  outline: none;
+  
+}
+
+.contact-submit{
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(66 180 255);
+  margin-top: 20px;
+  height: 40px;
+  width: 75px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  outline: none;
+  border: 1px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.contact-submit-control{
+  text-align: center;
+}
+.contact-submit:hover{
+  background-color:rgb(38, 79, 107) ;
+}
+form{
+  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 6px rgb(28, 28, 29);
+  border:1px solid rgb(28, 28, 29);
+  
+}
+
+
+
+.footer-div{
+  background-color: rgb(28, 28, 29);
+  padding: 5px;
+  height: 40px;
+}
+.footer-text{
+  font-size: 12px;
+  padding: 7px;
+  text-align: center;
+  color: white;
+  margin-bottom: 5px;
+
+}
